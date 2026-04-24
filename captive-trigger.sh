@@ -13,4 +13,4 @@
 
 
 #Adjust for your perferred browser. Initially, I used the "open" command. This doesn't always prove reliable. Identify your browser. I use vanilla Chrome on Kubuntu 
-{ google-chrome neverssl.com && echo "succeess"; }  || { echo "error" && exit 1; }
+{ open -a "Google Chrome" http://neverssl.com && echo 'success'; } || { echo "error" && exit 1; }
